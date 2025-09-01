@@ -4,7 +4,7 @@ import { venues } from '../../data/siteData';
 
 const VenuesSection = () => {
   return (
-    <section id="venues" className="py-20" style={{ backgroundColor: '#4a2c2a' }}>
+    <section id="venues" className="py-20" style={{ backgroundColor: '#3a0c09ff' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

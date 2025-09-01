@@ -32,12 +32,12 @@ const MusicSection = () => {
             transition={{ duration: 0.6 }}
             className="glass-effect rounded-xl p-8"
           >
-            <h3 className="text-2xl font-bold text-white mb-4">Álbum: "Canções do Coração"</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Música: "Adega"</h3>
             <p className="text-white/80 mb-6">
-              O nosso álbum de estreia, lançado em 2020, com 12 faixas que capturam a essência da música tradicional portuguesa.
+              Essa é uma música original que conta sobre a nossa tão amada sala de ensaios, onde nós estudamos, ensaiamos e damos boas risadas! Por isso, nada melhor que contar essa linda história!
             </p>
             <Button
-              onClick={() => handleSpotifyClick('https://open.spotify.com/album/1z3KspdaeGSUYv6j44Y4T7')}
+              onClick={() => handleSpotifyClick('https://open.spotify.com/intl-pt/track/3rIGuUMqMO84WhbTEHDVp4?si=cbb4c85488bd406a')}
               className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full flex items-center space-x-2"
             >
               <Spotify className="h-5 w-5" />
