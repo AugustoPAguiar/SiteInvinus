@@ -1,0 +1,63 @@
+# 🎶 Site Invinus Tuna 🍷
+
+Bem-vindo ao repositório do site da Invinus Tuna!  
+Feito com **React**, **Vite** e **Tailwind CSS**, para um site moderno, responsivo e estilizado.
+
+---
+
+## ⚡ Requisitos
+
+- [Node.js](https://nodejs.org/pt/download) (versão LTS)  
+- npm (vem junto com o Node.js)
+
+Verifique a instalação:
+
+node -v
+npm -v
+
+--- 
+
+## 🚀 Criar o Projeto
+
+Crie o projeto React com Vite:
+
+- npm create vite@latest site_invinus
+
+Escolha React (ou React + SWC). Entre na pasta e instale as dependências:
+- cd site_invinus
+- npm install
+
+---
+
+## 🎨 Tailwind CSS
+
+Instale o Tailwind e dependências:
+
+- npm install -D tailwindcss postcss autoprefixer
+- npm install -D tailwindcss-animate
+- npx tailwindcss init -p
+- npm install react-router-dom
+
+---
+
+## 🛠 Desenvolvimento
+
+Rode o projeto localmente:
+
+- npm run dev
+
+Atualização automática ao alterar o código
+Apenas para desenvolvimento
+
+Após a conclusão da parte de desenvolvimento, crie a versão final otimizada:
+
+- npm run build
+
+Gera a pasta dist/ com HTML, CSS e JS minificados
+
+Pronta para hospedar (Hostinger, Netlify, Vercel, etc.)
+
+Para testar localmente:
+
+- npm install -g serve
+- serve -s dist
