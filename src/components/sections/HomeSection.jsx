@@ -31,23 +31,31 @@ const HomeSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text">
+          <h1
+            className="
+              text-6xl md:text-8xl font-bold mb-6
+              text-[#f2ebe2]         // vermelho bordo
+              drop-shadow-[2px_2px_0_black] // traçado preto simples
+              relative
+              "
+            style={{ WebkitTextStroke: '2px black' }}
+          >
             In'Vinus Tuna
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto">
-            Uma banda universitária portuguesa que celebra a tradição musical com paixão e inovação
+            A Tuna Masculina da Escola Superior de Administração, Comunicação e Turismo de Mirandela!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               onClick={() => navigate('/about')}
-              className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black font-semibold px-8 py-3 rounded-full text-lg"
+              className="bg-red-900 hover:bg-red-400 text-black font-semibold border border-[#161412] px-8 py-3 rounded-full text-lg"
             >
-              Conhece-nos
+              Quem Somos
             </Button>
             <Button
               onClick={() => handleScrollToSection('music')}
               variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg"
+              className="bg-[#161412] hover:bg-gray-700 text-[#800020] font-semibold border border-red-600 px-8 py-3 rounded-full text-lg"
             >
               Ouve a Nossa Música
             </Button>
@@ -59,7 +67,7 @@ const HomeSection = () => {
         {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute text-red-900 text-4xl" // Alterado a cor das notas para vermelho
+            className="absolute text-[#800020] text-4xl" // vermelho bordo garantido
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
