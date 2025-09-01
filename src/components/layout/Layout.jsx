@@ -48,7 +48,7 @@ const Layout = () => {
 
       <div className="min-h-screen flex flex-col">
         <Header />
-        <ScrollToTop /> {/* Adicione aqui */}
+        {(location.pathname === '/about' || location.pathname === '/merchandise') && <ScrollToTop />}
         <main className="flex-grow">
           <Outlet />
         </main>
