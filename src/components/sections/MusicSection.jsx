@@ -81,15 +81,14 @@ const MusicSection = () => {
             <div className="spotify-embed">
               <iframe
                 style={{ borderRadius: '12px' }}
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5cO1uP12s3I?utm_source=generator&theme=0"
+                src="https://open.spotify.com/embed/album/2xCIYxrwPeUck6AigMBmRy?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
-                allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
                 title="Spotify Embed"
-              ></iframe>
+              />
             </div>
           </div>
         </motion.div>
@@ -97,5 +96,4 @@ const MusicSection = () => {
     </section>
   );
 };
-
 export default MusicSection;
