@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Clock } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { useToast } from '@/components/ui/use-toast';
-import { events } from '@/data/siteData';
+import { Button } from '../components/ui/button';
+import { useToast } from '../components/ui/use-toast';
+import { events } from '../data/siteData';
 
 const CalendarPage = () => {
   const { toast } = useToast();

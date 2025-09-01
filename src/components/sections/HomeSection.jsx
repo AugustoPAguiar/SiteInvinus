@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '../ui/button';
 import { useNavigate } from 'react-router-dom';
 
 const HomeSection = () => {
@@ -31,7 +31,7 @@ const HomeSection = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text">
-            Invinus Tuna
+            In'Vinus Tuna
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto">
             Uma banda universitária portuguesa que celebra a tradição musical com paixão e inovação

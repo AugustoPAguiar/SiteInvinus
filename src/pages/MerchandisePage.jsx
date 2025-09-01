@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { useToast } from '@/components/ui/use-toast';
+import { Button } from '../components/ui/button';
+import { useToast } from '../components/ui/use-toast';
 
 const merchandiseItems = [
   {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { historyEvents } from '@/data/siteData';
+import { historyEvents } from '../../data/siteData';
 
 const HistorySection = () => {
   return (

@@ -1,9 +1,11 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { Toaster } from '@/components/ui/toaster';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import { Toaster } from '../../components/ui/toaster';
+import Header from './Header';
+import Footer from './Footer';
+import ScrollToTop from './ScrollToTop'; // Corrigido o import
+
 
 const Layout = () => {
   const location = useLocation();
@@ -27,8 +29,8 @@ const Layout = () => {
         };
       default:
         return {
-          title: 'Invinus Tuna - Banda Universitária Portuguesa',
-          description: 'Conheça a Invinus Tuna, uma banda universitária portuguesa dedicada à música tradicional e moderna. Descubra nossa história, membros e próximas apresentações.'
+          title: "In'Vinus Tuna",
+          description: 'Tuna Masculina da Escola Superior de Administração, Comunicação e Turismo de Mirandela (EsACT).'
         };
     }
   };
@@ -46,6 +48,7 @@ const Layout = () => {
 
       <div className="min-h-screen flex flex-col">
         <Header />
+        <ScrollToTop /> {/* Adicione aqui */}
         <main className="flex-grow">
           <Outlet />
         </main>

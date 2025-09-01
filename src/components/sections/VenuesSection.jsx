@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { venues } from '@/data/siteData';
+import { venues } from '../../data/siteData';
 
 const VenuesSection = () => {
   return (

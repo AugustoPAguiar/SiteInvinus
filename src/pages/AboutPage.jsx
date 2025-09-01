@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { members } from '@/data/siteData';
+import { members } from '../data/siteData';
 
 const AboutPage = () => {
   return (

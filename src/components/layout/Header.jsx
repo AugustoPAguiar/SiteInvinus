@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { homeSections, navLinks } from '@/data/siteData';
+import { homeSections, navLinks } from '../../data/siteData';
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState('home');
