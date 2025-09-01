@@ -52,12 +52,12 @@ const MusicSection = () => {
             transition={{ duration: 0.6 }}
             className="glass-effect rounded-xl p-8"
           >
-            <h3 className="text-2xl font-bold text-white mb-4">Álbum: "Ecos da Tradição"</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Música: "Quando a Noite Já Ia Serena"</h3>
             <p className="text-white/80 mb-6">
-              O nosso segundo álbum, lançado em 2024, onde exploramos novos horizontes musicais mantendo as nossas raízes.
+              Uma melodia que atravessa a serenidade da noite, trazendo lembranças, sentimentos e memórias que aquecem o coração. Cada nota é poesia, cada acorde é emoção. Uma interpretação da Invinus Tuna que transforma a noite em momentos inesquecíveis.
             </p>
             <Button
-              onClick={() => handleSpotifyClick('https://open.spotify.com/album/1z3KspdaeGSUYv6j44Y4T7')}
+              onClick={() => handleSpotifyClick('https://open.spotify.com/intl-pt/track/6ZNjYHwn1O2cUgru9YN60a?si=92bce6ba5946493e')}
               className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full flex items-center space-x-2"
             >
               <Spotify className="h-5 w-5" />
