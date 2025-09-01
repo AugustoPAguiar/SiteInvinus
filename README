@@ -17,26 +17,15 @@ npm -v
 
 --- 
 
-## 🚀 Criar o Projeto
-
-Crie o projeto React com Vite:
-
-- npm create vite@latest site_invinus
-
-Escolha React (ou React + SWC). Entre na pasta e instale as dependências:
-- cd site_invinus
-- npm install
-
----
-
 ## 🎨 Tailwind CSS
 
 Instale o Tailwind e dependências:
 
 - npm install -D tailwindcss postcss autoprefixer
 - npm install -D tailwindcss-animate
-- npx tailwindcss init -p
 - npm install react-router-dom
+- npx tailwindcss init -p
+
 
 ---
 
