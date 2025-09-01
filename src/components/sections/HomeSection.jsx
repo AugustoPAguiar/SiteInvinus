@@ -55,10 +55,10 @@ const HomeSection = () => {
       </div>
       
       <div className="absolute inset-0 pointer-events-none">
-        {[...Array(6)].map((_, i) => (
+        {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute text-yellow-400/20 text-4xl"
+            className="absolute text-red-900 text-4xl" // Alterado a cor das notas para vermelho
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
