@@ -111,8 +111,8 @@ const Header = () => {
             className="flex items-center space-x-3 cursor-pointer"
             onClick={() => handleScrollToSection('home')}
           >
-            <img  alt="Invinus Tuna logo" className="h-10 w-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1654657078233-d63d1548a891" />
-            <span className="text-2xl font-bold gradient-text">Invinus Tuna</span>
+            <img  alt="Invinus Tuna logo" className="h-10 w-10 object-cover" src="/img/logo_invinus-removebg-preview.png" />
+            <span className="text-2xl font-bold gradient-text">In'vinus Tuna</span>
           </motion.div>
 
           <nav className="hidden md:flex space-x-2 items-center">

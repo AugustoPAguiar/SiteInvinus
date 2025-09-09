@@ -20,7 +20,7 @@ const MusicSection = () => {
         >
           <h2 className="text-5xl font-bold mb-6 gradient-text">Nossas Músicas</h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Ouve as nossas criações no Spotify e deixa-te levar pela nossa música
+            Ouve algumas de nossas músicas originais e interpretações que refletem a essência da In'vinus Tuna!
           </p>
         </motion.div>
 

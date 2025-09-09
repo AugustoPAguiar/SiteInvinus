@@ -1,5 +1,6 @@
 import { Music, Users, Calendar, History, Podcast as Spotify, ShoppingCart, Landmark } from 'lucide-react';
 
+// Adiciona as Secções da Página Inicial
 export const homeSections = [
   { id: 'home', label: 'Início', icon: Music },
   { id: 'venues', label: 'Palcos', icon: Landmark },
@@ -7,27 +8,24 @@ export const homeSections = [
   { id: 'music', label: 'Músicas', icon: Spotify },
 ];
 
+// Adiciona os Links de Navegação
 export const navLinks = [
     { id: 'about', label: 'Quem Somos', icon: Users, path: '/about' },
     { id: 'calendar', label: 'Calendário', icon: Calendar, path: '/calendar' },
     { id: 'merchandise', label: 'Merchandise', icon: ShoppingCart, path: '/merchandise' }
 ];
 
+// Adiciona os Membros
 export const members = [
-  { name: 'João Silva', role: 'Vocalista Principal', instrument: 'Voz' },
-  { name: 'Maria Santos', role: 'Guitarrista', instrument: 'Guitarra' },
-  { name: 'Pedro Costa', role: 'Baixista', instrument: 'Baixo' },
-  { name: 'Ana Oliveira', role: 'Baterista', instrument: 'Bateria' },
-  { name: 'Carlos Ferreira', role: 'Tecladista', instrument: 'Teclado' },
-  { name: 'Sofia Rodrigues', role: 'Backing Vocal', instrument: 'Voz' },
-  { name: 'Miguel Pereira', role: 'Guitarrista', instrument: 'Guitarra' },
-  { name: 'Beatriz Lima', role: 'Violinista', instrument: 'Violino' },
-  { name: 'Ricardo Alves', role: 'Cavaquinho', instrument: 'Cavaquinho' },
-  { name: 'Inês Mendes', role: 'Acordeão', instrument: 'Acordeão' },
-  { name: 'Luís Gonçalves', role: 'Bandolim', instrument: 'Bandolim' },
-  { name: 'Catarina Ribeiro', role: 'Pandeireta', instrument: 'Pandeireta' }
+  { name: 'Charlinhos', role: 'Guitarrista Principal', instrument: 'Guitarra' , image:"img/members/augusto.jpg" },
+  { name: 'Joka', role: 'Guitarrista', instrument: 'Guitarra', image:"img/members/augusto.jpg" },
+  { name: 'Baião', role: 'Cavaquinho', instrument: 'Cavaquinho', image:"img/members/augusto.jpg" },
+  { name: 'Augusto', role: 'Acordeão', instrument: 'Acordeão', image:"img/members/augusto.jpg" },
+  { name: 'Tiago', role: 'Guitarrista', instrument: 'Guitarrista', image:"img/members/augusto.jpg" },
+  { name: 'João Silva', role: 'Estandarte', instrument: 'Estandarte', image:"img/members/augusto.jpg" }
 ];
 
+// Adiciona os Eventos Históricos
 export const historyEvents = [
   { year: '2018', title: 'Fundação da Invinus Tuna', description: 'A banda foi formada por estudantes universitários apaixonados pela música tradicional portuguesa.' },
   { year: '2019', title: 'Primeiro Concerto', description: 'Realizámos o nosso primeiro concerto no auditório da universidade para uma plateia de 200 pessoas.' },
@@ -38,6 +36,8 @@ export const historyEvents = [
   { year: '2024', title: 'Novo Álbum', description: 'Lançámos "Ecos da Tradição", o nosso segundo álbum de estúdio.' }
 ];
 
+
+// Adiciona os Eventos
 export const events = [
   { date: '15 Jan 2025', title: 'Concerto de Ano Novo', location: 'Teatro Municipal do Porto', time: '21:00' },
   { date: '22 Fev 2025', title: 'Serenata de São Valentim', location: 'Jardim Botânico de Coimbra', time: '19:30' },
@@ -53,9 +53,21 @@ export const events = [
   { date: '24 Dez 2025', title: 'Concerto de Natal', location: 'Igreja do Carmo, Porto', time: '20:00' }
 ];
 
+// Adiciona os Palcos
 export const venues = [
-    { name: 'Teatro Municipal do Porto', imageText: 'Fachada do Teatro Municipal do Porto à noite' },
-    { name: 'Casa da Música', imageText: 'Arquitetura moderna da Casa da Música no Porto' },
-    { name: 'Coliseu de Lisboa', imageText: 'Interior do Coliseu de Lisboa com o palco iluminado' },
-    { name: 'Festival de Vilar de Mouros', imageText: 'Multidão num concerto ao ar livre no Festival de Vilar de Mouros' },
+  {
+    name: "Teatro Municipal de Mirandela",
+    image: "img/venues/auditorio_mirandela.jpg", // Caminho relativo à pasta public/img
+    imageText: "Teatro Municipal de Mirandela",
+  },
+  {
+    name: "Auditório de Mirandela",
+    image: "img/venues/auditorio_mirandela.jpg",
+    imageText: "Auditório de Mirandela",
+  },
+  {
+    name: "Grande Auditório do Altice Forum Braga",
+    image: "img/venues/Grande_Auditório _Braga.jpg",
+    imageText: "Grande Auditório do Altice Forum Braga",
+  },
 ];

@@ -30,10 +30,10 @@ const VenuesSection = () => {
               className="member-card rounded-xl text-center overflow-hidden"
             >
               <div className="h-48 relative">
-                 <img  class="w-full h-full object-cover" alt={venue.imageText} src="https://images.unsplash.com/photo-1688046671828-c26b7fd54596" />
-                 <div className="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
-                    <h3 className="text-lg font-semibold text-white text-center">{venue.name}</h3>
-                 </div>
+                <img className="w-full h-full object-cover" alt={venue.imageText} src={venue.image}/>
+                <div className="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                  <h3 className="text-lg font-semibold text-white text-center">{venue.name}</h3>
+                </div>
               </div>
             </motion.div>
           ))}

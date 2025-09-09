@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../ui/button';
 import { useNavigate } from 'react-router-dom';
-import fotoTuna from '..//../img/fotoTuna1.jpg';
 
 const HomeSection = () => {
   const navigate = useNavigate();
@@ -22,7 +21,7 @@ const HomeSection = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       <div className="absolute inset-0">
-        <img alt="Invinus Tuna XII Viretas" className="w-full h-full object-cover" src={fotoTuna} />
+        <img alt="Invinus Tuna XII Viretas" className="w-full h-full object-cover" src="img/fotoTuna1.jpg" />
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
