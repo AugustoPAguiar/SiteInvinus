@@ -17,12 +17,12 @@ export const navLinks = [
 
 // Adiciona os Membros
 export const members = [
-  { name: 'Charlinhos', role: 'Guitarrista Principal', instrument: 'Guitarra', image:"" }, 
+  { name: 'Charlinhos', role: 'Guitarrista Principal', instrument: 'Guitarra', image:"img/membros/Charlinhos.png" }, 
   { name: 'Augusto', role: 'Teclas', instrument: 'Acordeão', image: "img/membros/Augusto.jpg"}, 
-  { name: 'Tiago', role: 'Cordas', instrument: 'Guitarra'}, 
-  { name: 'Baião', role: 'Cordas', instrument: 'Cavaquinho'}, 
-  { name: 'Joka', role: 'Cordas', instrument: 'Guitarra'}, 
-  { name: 'Martinho', role: 'Coreografia', instrument: 'Pandeireta'}
+  { name: 'Tiago', role: 'Cordas', instrument: 'Guitarra', image: "img/membros/Tiago.jpg"}, 
+  { name: 'Baião', role: 'Cordas', instrument: 'Cavaquinho', image: "img/membros/Baiao.png"}, 
+  { name: 'Joka', role: 'Cordas', instrument: 'Guitarra', image: "img/membros/Joka.png"}, 
+  { name: 'Martinho', role: 'Coreografia', instrument: 'Pandeireta', image: "img/membros/Martinho.png"}
 ];
 
 // Adiciona os Eventos Históricos

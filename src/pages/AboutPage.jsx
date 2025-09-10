@@ -30,12 +30,16 @@ const AboutPage = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="member-card rounded-xl p-6 text-center"
             >
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                 <img  alt={`Foto de ${member.name}`} className="w-28 h-28 rounded-full object-cover" src={member.image} />
+              <div className="w-32 h-32 mx-auto mb-4 flex items-center justify-center">
+                <img
+                  alt={`Foto de ${member.name}`}
+                  className="w-28 h-28 rounded-full object-cover border-4 border-[#800020]"
+                  src={member.image}
+                />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">{member.name}</h3>
-              <p className="text-yellow-400 font-medium mb-1">{member.role}</p>
-              <p className="text-white/70 text-sm">{member.instrument}</p>
+              <p className="text-xl font-bold bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent">{member.instrument}</p>
+              <p className="text-white/70 text-sm">{member.role}</p>
             </motion.div>
           ))}
         </div>
