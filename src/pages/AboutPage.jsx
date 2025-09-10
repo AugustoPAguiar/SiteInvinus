@@ -31,7 +31,7 @@ const AboutPage = () => {
               className="member-card rounded-xl p-6 text-center"
             >
               <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-                 <img  alt={`Foto de ${member.name}`} className="w-28 h-28 rounded-full object-cover" src="https://images.unsplash.com/photo-1693325924433-9009521d4079" />
+                 <img  alt={`Foto de ${member.name}`} className="w-28 h-28 rounded-full object-cover" src={member.image} />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">{member.name}</h3>
               <p className="text-yellow-400 font-medium mb-1">{member.role}</p>

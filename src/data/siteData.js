@@ -17,12 +17,12 @@ export const navLinks = [
 
 // Adiciona os Membros
 export const members = [
-  { name: 'Charlinhos', role: 'Guitarrista Principal', instrument: 'Guitarra' , image:"img/members/augusto.jpg" },
-  { name: 'Joka', role: 'Guitarrista', instrument: 'Guitarra', image:"img/members/augusto.jpg" },
-  { name: 'Baião', role: 'Cavaquinho', instrument: 'Cavaquinho', image:"img/members/augusto.jpg" },
-  { name: 'Augusto', role: 'Acordeão', instrument: 'Acordeão', image:"img/members/augusto.jpg" },
-  { name: 'Tiago', role: 'Guitarrista', instrument: 'Guitarrista', image:"img/members/augusto.jpg" },
-  { name: 'João Silva', role: 'Estandarte', instrument: 'Estandarte', image:"img/members/augusto.jpg" }
+  { name: 'Charlinhos', role: 'Guitarrista Principal', instrument: 'Guitarra', image:"" }, 
+  { name: 'Augusto', role: 'Teclas', instrument: 'Acordeão', image: "img/membros/Augusto.jpg"}, 
+  { name: 'Tiago', role: 'Cordas', instrument: 'Guitarra'}, 
+  { name: 'Baião', role: 'Cordas', instrument: 'Cavaquinho'}, 
+  { name: 'Joka', role: 'Cordas', instrument: 'Guitarra'}, 
+  { name: 'Martinho', role: 'Coreografia', instrument: 'Pandeireta'}
 ];
 
 // Adiciona os Eventos Históricos
@@ -56,9 +56,9 @@ export const events = [
 // Adiciona os Palcos
 export const venues = [
   {
-    name: "Teatro Municipal de Mirandela",
-    image: "img/venues/auditorio_mirandela.jpg", // Caminho relativo à pasta public/img
-    imageText: "Teatro Municipal de Mirandela",
+    name: "Coliseu do Porto",
+    image: "img/venues/coliseu_porto.jpg", // Caminho relativo à pasta public/img
+    imageText: "Coliseu do Porto",
   },
   {
     name: "Auditório de Mirandela",
